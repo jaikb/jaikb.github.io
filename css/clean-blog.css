@@ -306,9 +306,30 @@ header.masthead .post-heading .meta a {
   color: #212529;
 }
 
+.post-entry-container {
+  display: inline-block;
+  font-size: 12px;
+  width: 100%;
+}
+
+.post-entry {
+  width: 100%; 
+}
+.post-random {
+  font-size: 0px
+}
+
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
   color: #0085A1;
+}
+
+.post-preview > .post-entry {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.post-preview > .post-read-more {
+  font-weight: 800;
 }
 
 @media only screen and (min-width: 768px) {
